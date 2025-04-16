@@ -20,6 +20,9 @@ app.use("/", (req, res) => {
   res.send("Bienvenido a la página principal!!");
 });
 
+
+
+
 const PORT = process.env.PORT || 3000;
 
 connectDB().then(() => {

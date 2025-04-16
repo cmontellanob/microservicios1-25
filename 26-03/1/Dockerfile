@@ -12,7 +12,7 @@ COPY package-lock.json .
 RUN npm install
 
 # Copiar el resto de los archivos del proyecto
-COPY . .
+COPY . .git 
 
 # Crear las carpetas uploads y logs si no existen
 
